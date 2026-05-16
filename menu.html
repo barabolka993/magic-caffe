@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магічне Кафе | Меню</title>
+    <style>
+        /* Основний фон сторінки */
+        body {
+            background: #0f0c29;
+            background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+        }
+
+        /* Картка меню з ефектом скла */
+        .menu-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 450px;
+        }
+
+        /* Заголовок меню */
+        .magic-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .magic-header h1 {
+            font-size: 2rem;
+            color: #a29bfe;
+            text-shadow: 0 0 15px #6c5ce7;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .magic-header p {
+            font-size: 0.9rem;
+            color: #dcdde1;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* Розділи меню */
+        .menu-section {
+            margin-bottom: 25px;
+        }
+
+        .category-title {
+            color: #f1fa8c;
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgba(241, 250, 140, 0.3);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Елементи списку */
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 18px;
+            transition: 0.3s;
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        .menu-item:hover {
+            background: rgba(162, 155, 254, 0.1);
+            transform: translateX(5px);
+        }
+
+        .item-info {
+            flex: 1;
+        }
+
+        .item-name {
+            display: block;
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.05rem;
+        }
+
+        .item-desc {
+            font-size: 0.85rem;
+            color: #b2bec3;
+            margin: 4px 0 0 0;
+        }
+
+        .price {
+            color: #50fa7b;
+            font-weight: bold;
+            margin-left: 15px;
+            text-shadow: 0 0 5px rgba(80, 250, 123, 0.3);
+        }
+
+        /* Підпис внизу */
+        .magic-footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.75rem;
+            color: rgba(162, 155, 254, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-card">
+    <div class="magic-header">
+        <h1>✨ Магічне Меню ✨</h1>
+        <p>Смаки, що зачаровують</p>
+    </div>
+
+    <!-- Напої -->
+    <div class="menu-section">
+        <h2 class="category-title">Еліксири</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <span class="item-name">Сльози Фенікса</span>
+                <p class="item-desc">Гарячий імбирний напій з апельсином</p>
+            </div>
+            <span class="price">85 🔮</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <span class="item-name">Місячне Сяйво</span>
+                <p class="item-desc">Освіжаючий лавандовий лимонад</p>
+            </div>
+            <span class="price">120 🔮</span>
+        </div>
+    </div>
+
+    <!-- Страви -->
+    <div class="menu-section">
+        <h2 class="category-title">Страви</h2>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <span class="item-name">Бургер "Подих Дракона"</span>
+                <p class="item-desc">Екстра-гострий соус, чорна булочка</p>
+            </div>
+            <span class="price">245 🔮</span>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-info">
+                <span class="item-name">Мафін із пилком феї</span>
+                <p class="item-desc">Чорничний десерт із їстівними блискітками</p>
+            </div>
+            <span class="price">65 🔮</span>
+        </div>
+    </div>
+
+    <div class="magic-footer">
+        * Ціни вказані в магічних кристалах. ПДВ враховано.
+    </div>
+</div>
+
+</body>
+</html>
+       
+
+
+
+
+    
